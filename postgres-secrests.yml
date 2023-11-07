@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+type: Opaque
+data:
+  # username: postgres
+  username: cG9zdGdyZXMNCg==
+  # password: root123
+  password: cm9vdDEyMw0K
